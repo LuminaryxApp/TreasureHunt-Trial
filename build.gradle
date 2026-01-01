@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'com.gradleup.shadow' version '8.3.5'
+}
+
+group = 'com.luminary'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT'
+
+    // HikariCP for connection pooling (will be shaded)
+    implementation 'com.zaxxer:HikariCP:5.1.0'
+}
+
+processResources {
+    filesMatching('plugin.yml') {
+        expand('version': project.version)
+    }
+}
+
+shadowJar {
+    archiveClassifier.set('')
+    destinationDirectory = file('C:/Servers/Paper/plugins')
+
+    // Relocate HikariCP to avoid conflicts with other plugins
+    relocate 'com.zaxxer.hikari', 'com.luminary.treasurehunt.libs.hikari'
+}
+
+// Copy to second server after build
+task copyToSecondServer(type: Copy) {
+    from shadowJar
+    into 'C:/Servers/Paper 1.21/plugins'
+}
+
+build.dependsOn shadowJar
+shadowJar.finalizedBy copyToSecondServer

@@ -1,0 +1,161 @@
+# ==========================================
+#         DATABASE CONFIGURATION
+# ==========================================
+database:
+  host: "localhost"
+  port: 3306
+  database: "minecraft"
+  username: "root"
+  password: ""
+  # Connection pool settings
+  pool:
+    maximum-pool-size: 10
+    minimum-idle: 2
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1800000
+  # Custom table names (for shared databases)
+  tables:
+    treasures: "treasure_hunt_treasures"
+    completions: "treasure_hunt_completions"
+
+# ==========================================
+#         GENERAL SETTINGS
+# ==========================================
+settings:
+  # Selection timeout in seconds
+  selection-timeout: 30
+  # Whether to log treasure claims to console
+  log-claims: true
+  # Whether to check claim status asynchronously (recommended)
+  async-claim-check: true
+  # How often to sync treasures from database (in seconds)
+  # Set to 0 to disable auto-sync (requires restart to see changes from other servers)
+  sync-interval: 5
+
+# ==========================================
+#         SOUNDS (set to "" to disable)
+# ==========================================
+sounds:
+  treasure-claimed:
+    sound: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.0
+  already-claimed:
+    sound: "ENTITY_VILLAGER_NO"
+    volume: 1.0
+    pitch: 1.0
+  treasure-created:
+    sound: "BLOCK_NOTE_BLOCK_PLING"
+    volume: 1.0
+    pitch: 2.0
+  treasure-deleted:
+    sound: "BLOCK_ANVIL_DESTROY"
+    volume: 1.0
+    pitch: 1.0
+  selection-start:
+    sound: "BLOCK_NOTE_BLOCK_CHIME"
+    volume: 1.0
+    pitch: 1.5
+  gui-click:
+    sound: "UI_BUTTON_CLICK"
+    volume: 0.5
+    pitch: 1.0
+
+# ==========================================
+#         PARTICLES (set enabled: false to disable)
+# ==========================================
+particles:
+  on-claim:
+    enabled: true
+    type: "TOTEM_OF_UNDYING"
+    count: 50
+  on-create:
+    enabled: true
+    type: "HAPPY_VILLAGER"
+    count: 30
+
+# ==========================================
+#         GUI CONFIGURATION
+# ==========================================
+gui:
+  # Main treasure list menu
+  list-menu:
+    title: "&6&lTreasure List"
+    rows: 6
+    # Border/filler item
+    border:
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: " "
+    # Treasure item display
+    treasure-item:
+      material: "CHEST"
+      name: "&e%id%"
+      lore:
+        - "&7Location: &f%world% %x%, %y%, %z%"
+        - "&7Command: &f%command%"
+        - "&7Created: &f%created_at%"
+        - ""
+        - "&aLeft-click &7to view completions"
+        - "&cRight-click &7to delete"
+    # Navigation
+    previous-page:
+      material: "ARROW"
+      name: "&7Previous Page"
+      slot: 48
+    next-page:
+      material: "ARROW"
+      name: "&7Next Page"
+      slot: 50
+    close-button:
+      material: "BARRIER"
+      name: "&cClose"
+      slot: 49
+    # Info item
+    info:
+      material: "BOOK"
+      name: "&6Treasure Hunt"
+      lore:
+        - "&7Total treasures: &f%total%"
+        - "&7Page: &f%page%/%max_page%"
+      slot: 4
+
+  # Delete confirmation menu
+  confirm-menu:
+    title: "&c&lConfirm Delete"
+    rows: 3
+    confirm:
+      material: "LIME_WOOL"
+      name: "&aConfirm Delete"
+      lore:
+        - "&7Click to delete treasure"
+        - "&c%id%"
+      slot: 11
+    cancel:
+      material: "RED_WOOL"
+      name: "&cCancel"
+      lore:
+        - "&7Go back to list"
+      slot: 15
+    background:
+      material: "BLACK_STAINED_GLASS_PANE"
+      name: " "
+
+  # Completions list menu
+  completions-menu:
+    title: "&a&lCompletions: %id%"
+    rows: 6
+    player-item:
+      material: "PLAYER_HEAD"
+      name: "&e%player%"
+      lore:
+        - "&7Completed: &f%completed_at%"
+    empty:
+      material: "BARRIER"
+      name: "&cNo completions yet"
+      lore:
+        - "&7No players have found this treasure"
+    back-button:
+      material: "ARROW"
+      name: "&7Back to List"
+      slot: 49

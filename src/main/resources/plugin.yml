@@ -1,0 +1,29 @@
+name: TreasureHunt
+version: ${version}
+main: com.luminary.treasurehunt.TreasureHunt
+api-version: '1.21'
+authors: [Luminary]
+description: A customizable treasure hunt system with multi-server MySQL support
+
+commands:
+  treasure:
+    description: Treasure hunt management
+    usage: /treasure <create|delete|completed|list|gui|reload>
+    aliases: [th, treasurehunt]
+
+permissions:
+  treasurehunt.*:
+    description: All TreasureHunt permissions
+    default: op
+    children:
+      treasurehunt.admin: true
+      treasurehunt.claim: true
+  treasurehunt.admin:
+    description: Access to admin commands (create, delete, reload, gui)
+    default: op
+  treasurehunt.claim:
+    description: Ability to claim treasures
+    default: true
+  treasurehunt.bypass:
+    description: Bypass claim restrictions (claim multiple times)
+    default: false

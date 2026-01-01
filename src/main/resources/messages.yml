@@ -1,0 +1,53 @@
+# ==========================================
+#         TREASURE HUNT MESSAGES
+# ==========================================
+# All messages support color codes (&) and hex colors (&#RRGGBB)
+# Placeholders: %id%, %player%, %command%, %world%, %x%, %y%, %z%, %count%
+
+prefix: "&6[Treasure] &r"
+
+# Permission messages
+no-permission: "&cYou don't have permission to do this!"
+player-only: "&cThis command can only be run by players!"
+
+# Treasure creation
+selection-started: "&eClick on a block to select it as the treasure location..."
+selection-timeout: "&cSelection timed out! Run the command again."
+selection-cancelled: "&cSelection cancelled."
+treasure-created: "&aTreasure '&e%id%&a' has been created!"
+treasure-already-exists: "&cA treasure with ID '&e%id%&c' already exists!"
+invalid-id: "&cInvalid treasure ID! Use only letters, numbers, and underscores."
+
+# Treasure deletion
+treasure-deleted: "&aTreasure '&e%id%&a' has been deleted!"
+treasure-not-found: "&cTreasure '&e%id%&c' was not found!"
+
+# Treasure claiming
+treasure-claimed: "&aCongratulations! You found a treasure!"
+already-claimed: "&eYou have already claimed this treasure."
+claim-error: "&cAn error occurred while claiming the treasure."
+
+# List command
+list-header: "&6=== Treasures (%count%) ==="
+list-entry: "&7- &e%id% &7at &f%world% %x%, %y%, %z%"
+list-empty: "&7No treasures have been created yet."
+list-footer: "&6========================="
+
+# Completed command
+completed-header: "&6=== Players who found '%id%' (%count%) ==="
+completed-entry: "&7- &e%player% &7on &f%completed_at%"
+completed-empty: "&7No players have found this treasure yet."
+completed-footer: "&6========================="
+
+# Reload
+config-reloaded: "&aConfiguration reloaded successfully!"
+
+# Help
+help-header: "&6=== Treasure Hunt Commands ==="
+help-create: "&e/treasure create <id> <command> &7- Create a treasure"
+help-delete: "&e/treasure delete <id> &7- Delete a treasure"
+help-list: "&e/treasure list &7- List all treasures"
+help-completed: "&e/treasure completed <id> &7- View who found a treasure"
+help-gui: "&e/treasure gui &7- Open treasure management GUI"
+help-reload: "&e/treasure reload &7- Reload configuration"
+help-footer: "&6============================="

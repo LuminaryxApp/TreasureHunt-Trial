@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f35d40b-7901-4a2a-af95-be03d396391c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LuminaryCore/LuminaryCore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LuminaryCrates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LuminaryMiners/LuminaryMiners.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LuminaryxPrison/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LuminaryxPrison/src/main/java/com/luminaryx/prison/LuminaryxPrisonPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LuminaryxPrison/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ChunkCoord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/Claim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ClaimResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ClaimSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionPreviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/commands/RealmArchitectCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/config/RASettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/database/repo/SqliteClaimRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/listeners/WandListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/realm/Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main/RealmArchitect/src/main/java/dev/rober/realmarchitect/util/ClaimWand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/api/AddonHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/api/EventAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/api/RealmAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ChunkKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/Claim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ClaimManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ClaimResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/ClaimSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionParticleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/SelectionWandListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/claims/WandUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/commands/RealmCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/core/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/Migrations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/RealmRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/repo/ClaimRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/database/repo/RealmRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/economy/IncomeSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/economy/TaxEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/economy/Treasury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/events/EventEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/events/EventOutcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/events/RealmEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/gui/EconomyMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/gui/MenuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/gui/PopulationMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/gui/RealmMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/infrastructure/BuildingScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/infrastructure/InfrastructureStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/infrastructure/StructureType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/population/EmploymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/population/HappinessCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/population/PopulationEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/realm/Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/realm/RealmManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/realm/RealmPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/java/dev/rober/realmarchitect/realm/RealmRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/addons/RealmMagic.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/addons/RealmNPCs.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/addons/RealmWarfare.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/economy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/events.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/laws.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/logs/realm-architect.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/migrations/003_claims.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/permissions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/realms.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RealmArchitect/src/main/resources/tech.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.claude/settings.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/LuminaryCrates.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/LuminaryCrates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/AnimationManager$CrateAnimation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/AnimationManager$CrateAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/AnimationManager$CrateAnimation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/AnimationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/AnimationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/CrateAnimationHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/animation/CrateAnimationHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/command/CratesCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/command/CratesCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/Crate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/Crate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward$RewardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward$RewardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/crate/CrateReward.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/key/KeyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/key/KeyManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/listener/InventoryListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/classes/java/main/com/luminary/crates/listener/InventoryListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/resources/main/crates.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/resources/main/crates.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/LuminaryCrates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/LuminaryCrates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/animation/AnimationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/animation/AnimationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/command/CratesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/command/CratesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/crate/Crate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/crate/Crate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/crate/CrateReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/crate/CrateReward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/key/KeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/key/KeyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/listener/InventoryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/java/com/luminary/crates/listener/InventoryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/resources/crates.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/resources/crates.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryCrates/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryCrates/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/api/EconomyAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/api/EconomyAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/scoreboard/ScoreboardManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/scoreboard/ScoreboardManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/scoreboard/ScoreboardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/classes/java/main/com/luminary/economy/scoreboard/ScoreboardManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/api/EconomyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/api/EconomyAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/scoreboard/ScoreboardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/src/main/java/com/luminary/economy/scoreboard/ScoreboardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEconomy/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEconomy/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/core/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/core/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/core/HookManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/core/HookManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine$EnhancerBuff.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine$EnhancerBuff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine$ProcContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine$ProcContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/ProcEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect$DropMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect$DropMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/AbstractEnchantEffect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/EnchantEffectRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/classes/java/main/com/luminary/enchants/trigger/effects/EnchantEffectRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/resources/main/enchants.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/resources/main/enchants.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/core/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/core/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/core/HookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/core/HookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/ProcEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/ProcEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/effects/AbstractEnchantEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/effects/AbstractEnchantEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/effects/EnchantEffectRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/java/com/luminary/enchants/trigger/effects/EnchantEffectRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/resources/enchants.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/resources/enchants.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryEnchants/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryEnchants/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build/classes/java/main/com/luminary/groups/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build/classes/java/main/com/luminary/groups/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build/classes/java/main/com/luminary/groups/hook/RanksHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build/classes/java/main/com/luminary/groups/hook/RanksHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/src/main/java/com/luminary/groups/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/src/main/java/com/luminary/groups/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/src/main/java/com/luminary/groups/hook/RanksHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/src/main/java/com/luminary/groups/hook/RanksHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryGroups/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryGroups/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMiners/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMiners/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMiners/src/main/java/com/luminary/miners/LuminaryMiners.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMiners/src/main/java/com/luminary/miners/LuminaryMiners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMiners/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMiners/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/LuminaryMines.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/LuminaryMines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineAdminCommand$PasteInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineAdminCommand$PasteInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineAdminCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineAdminCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/command/MineCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/mine/MineManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/mine/MineManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/mine/MineResetTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/mine/MineResetTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/MineSchematic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/MineSchematic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/SchematicManager$MineRegion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/SchematicManager$MineRegion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/SchematicManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/classes/java/main/com/luminary/mines/schematic/SchematicManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/ConfigManager.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/ConfigManager.class.uniqueId3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/LuminaryMines.class.uniqueId12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineAdminCommand.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineCommand.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineGUI.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineListener.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineManager.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineManager.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/MineSchematic.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/PlayerListener.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/SchematicManager$MineRegion.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/compileTransaction/stash-dir/SchematicManager.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/LuminaryMines.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/LuminaryMines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/command/MineAdminCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/command/MineAdminCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/command/MineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/command/MineCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/mine/MineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/mine/MineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/mine/MineResetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/mine/MineResetTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/schematic/MineSchematic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/schematic/MineSchematic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/schematic/SchematicManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/java/com/luminary/mines/schematic/SchematicManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryMines/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryMines/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/build/classes/java/main/com/luminary/ranks/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/build/classes/java/main/com/luminary/ranks/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/src/main/java/com/luminary/ranks/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/src/main/java/com/luminary/ranks/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuminaryRanks/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../LuminaryRanks/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37RzSH3DOj1o1spGXMPjAuMZu7Z" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build TreasureHunt.executor": "Run",
+    "Gradle.TreasureHunt [copyToSecondServer].executor": "Run",
+    "Gradle.TreasureHunt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rober/Desktop/ServerPlugins/TreasureHunt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TreasureHunt [copyToSecondServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="copyToSecondServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TreasureHunt [copyToSecondServer]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f35d40b-7901-4a2a-af95-be03d396391c" name="Changes" comment="" />
+      <created>1766880669847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766880669847</updated>
+      <workItem from="1766880671139" duration="5173000" />
+      <workItem from="1767214004643" duration="696000" />
+      <workItem from="1767214715725" duration="2087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
